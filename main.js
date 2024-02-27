@@ -91,3 +91,63 @@ console.log(kutyaLista[0].szin)
 
 
 
+
+
+
+
+const FocistakLista = [
+    {
+        nev: "Kylian Mbappe",
+        szuletett: 1998,
+        nemzetiseg: "francia",
+        csapat: "PSG",
+    },
+        
+    {   
+        nev: "Jude Bellingham",
+        szuletett: 2003,
+        nemzetiseg: "brit",
+        csapat: "Real Madrid",
+    },
+
+    {
+        nev: "Alejandro Garnacho",
+        szuletett: 2004,
+        nemzetiseg: "spanyol",
+        csapat: "Manchester United",
+    }
+]
+
+
+// Focisták nevei kiírás
+console.log("2023 fiatal foci sikerei:")
+for(let i = 0; i < FocistakLista.length; i++){
+    console.log(FocistakLista[i].nev);
+}
+
+console.log("\n")
+
+
+// Születési évük átlaga
+var atlag = 0;
+console.log("Születési évük átlaga:")
+for(let i = 0; i < FocistakLista.length; i++){
+    atlag += FocistakLista[i].szuletett
+}
+console.log(Math.round(atlag/FocistakLista.length))
+
+
+
+
+// objektum létrehozás házi, 3 objektum, min 2 tulajdonság, mindegyik első elemét kiirni, vagy átlagéletkor kiirni, vagy mindenkinek a nevét
+
+
+
+
+
+
+
+
+
+
+
